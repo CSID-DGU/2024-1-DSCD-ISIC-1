@@ -8,7 +8,7 @@ interface PostLogin {
 
 export const postLogin = async (body: PostLogin) => {
   try {
-    const response = await instance.post(`api/token/`, {
+    const response = await instance.post(`/api/token/`, {
       username: body.username,
       password: body.password,
     });

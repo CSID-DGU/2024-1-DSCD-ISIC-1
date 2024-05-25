@@ -7,6 +7,7 @@ export const Box = (props: BoxProps) => {
       width={props.width}
       height={props.height}
       margin={props.margin}
+      border={props.border}
       padding={props.padding}
       radius={props.radius}
       color={props.color}
