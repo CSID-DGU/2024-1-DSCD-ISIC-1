@@ -5,4 +5,5 @@ export interface WrapperProps {
   margin?: string;
   width?: string;
   height?: string;
+  justify?: string;
 }

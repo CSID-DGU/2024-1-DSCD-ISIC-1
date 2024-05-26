@@ -7,6 +7,6 @@ export const Wrapper = styled.div<WrapperProps>`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: ${(props) => props.justify || "center"};
   row-gap: ${(props) => (props.gap ? `${props.gap}` : 0)};
 `;
