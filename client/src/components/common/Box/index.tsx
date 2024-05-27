@@ -8,13 +8,13 @@ export const Box = (props: BoxProps) => {
       height={props.height}
       margin={props.margin}
       border={props.border}
-      padding={props.padding}
+      $padding={props.$padding}
       radius={props.radius}
       color={props.color}
       fontSize={props.fontSize}
-      backgroundColor={props.backgroundColor}
-      flexDirection={props.flexDirection}
-      justifyProps={props.justifyProps}
+      $backgroundColor={props.$backgroundColor}
+      $flexDirection={props.$flexDirection}
+      $justifyProps={props.$justifyProps}
     >
       {props.children}
     </S.Box>

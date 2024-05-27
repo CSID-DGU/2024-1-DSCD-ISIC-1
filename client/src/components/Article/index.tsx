@@ -14,7 +14,7 @@ export const Artice = () => {
         <Text color="black" size="0.8rem">
           아이디가 없으신가요?
         </Text>
-        <Text color="black" size="0.8rem" decoration="underline">
+        <Text color="black" size="0.8rem" $decoration="underline">
           <Link to={"/signUp"} style={{ color: "black" }}>
             회원가입 하기
           </Link>
