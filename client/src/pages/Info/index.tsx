@@ -13,7 +13,7 @@ import { TextArea } from "@/components/common/TextArea";
 import { Option } from "@/constant/options";
 import { Button } from "@/components/common/Button";
 import BACK from "@/assets/images/back.svg";
-
+        
 export const Info = () => {
   const [selectedOption, setSelectedOption] = useState(null);
   const navigate = useNavigate();
@@ -24,7 +24,6 @@ export const Info = () => {
       width: "100%",
     }),
   };
-
   return (
     <PageLayout $justifyContent="start">
       <Header>
@@ -86,7 +85,6 @@ export const Info = () => {
           options={skills}
           styles={customStyles}
         ></Select>
-
         <Text color="black" size="16px" $selfProps="flex-start">
           수상이력
         </Text>
