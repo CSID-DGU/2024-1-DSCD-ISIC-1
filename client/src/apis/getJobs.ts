@@ -21,3 +21,4 @@ export interface JobRecommendation {
   recommendation_reason: string;
   improvement_points: string;
 }
+
