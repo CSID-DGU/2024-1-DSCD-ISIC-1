@@ -1,0 +1,15 @@
+.DS_Store
+data/
+models/*.csv
+text_similarity/*.csv
+models/* .csv
+models/gpt/data/
+venv/
+chromedriver.exe
+__pycache__/
+requirements.txt
+.env
+.cache
+models/kor_base/koelectra+eda.ipynb
+models/kor_base/models
+
